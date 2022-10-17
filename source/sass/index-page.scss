@@ -1,0 +1,153 @@
+//main-header
+
+.main-header {
+  background-color: $color_beige;
+  display: flex;
+  flex-direction: column;
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 18px;
+
+    &:nth-child(2) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: $color_sand;
+      padding-top: 10px;
+      width: 1920px;
+    }
+  }
+}
+
+.main-header__wrapper-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header__innerwrapper-logo {
+  max-width: 488px;
+  padding-left: 85px;
+  padding-top: 15px;
+}
+
+.main-header__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: $color_red;
+  padding-bottom: 6px;
+}
+
+.main-header__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.main-header__wrapper-link {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.main-header__innerwrapper-link {
+  display: flex;
+  flex-direction: column;
+  padding-right: 25px;
+}
+
+.main-header__btn {
+  background-color: $color_red;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  display: block;
+  width: 230px;
+  height: 52px;
+  border: none;
+  color: $color_white;
+  margin-top: 30px;
+}
+
+.main-header__link-tel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: $color_main_text;
+  padding-left: 27px;
+  padding-top: 4px;
+  position: relative;
+
+  &:nth-child(1) {
+    padding-bottom: 5px;
+
+    &::before {
+      content: url(../img/phone-call.svg);
+      position: absolute;
+      left: -2px;
+    }
+  }
+}
+
+.main-header__link-mail {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  padding-top: 22px;
+  position: relative;
+  padding-left: 20px;
+
+  &::before {
+    content: url(../img/mail.svg);
+    position: absolute;
+    left: 3px;
+  }
+}
+
+.main-header__link-address {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  max-width: 300px;
+  text-align: start;
+  padding-top: 25px;
+  padding-left: 40px;
+  position: relative;
+
+  &::before {
+    content: url(../img/point-map.svg);
+    position: absolute;
+    left: 5px;
+  }
+}
+
+.main-header__list {
+  display: flex;
+  justify-content: space-between;
+
+  & .main-header__item a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: $color_white;
+  }
+
+  & li:not(:last-child) {
+    padding-right: 48px;
+  }
+}
+
+.main-header__input {
+  align-self: flex-end;
+}

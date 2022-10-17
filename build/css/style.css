@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Alice";
+  src: url(../fonts/Alice-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts//OpenSans-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #424242; }
+
+a,
+button {
+  cursor: pointer; }
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Alice", "Tahoma", sans-serif; }
+
+p {
+  margin: 0; }
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0; }
+
+label {
+  cursor: pointer; }
+
+input:focus {
+  outline: none; }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 225px;
+  max-width: 19200px; }
+
+.page-body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  font-family: "OpenSans", "Tahoma", sans-serif;
+  color: #424242; }
+
+.main-header {
+  background-color: #f4e7d9;
+  display: flex;
+  flex-direction: column; }
+  .main-header .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 18px; }
+    .main-header .container:nth-child(2) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #b98b5f;
+      padding-top: 10px;
+      width: 1920px; }
+
+.main-header__wrapper-logo {
+  display: flex;
+  justify-content: space-between; }
+
+.main-header__innerwrapper-logo {
+  max-width: 488px;
+  padding-left: 85px;
+  padding-top: 15px; }
+
+.main-header__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 110%;
+  color: #913636;
+  padding-bottom: 6px; }
+
+.main-header__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%; }
+
+.main-header__wrapper-link {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 10px; }
+
+.main-header__innerwrapper-link {
+  display: flex;
+  flex-direction: column;
+  padding-right: 25px; }
+
+.main-header__btn {
+  background-color: #913636;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  display: block;
+  width: 230px;
+  height: 52px;
+  border: none;
+  color: #ffffff;
+  margin-top: 30px; }
+
+.main-header__link-tel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #424242;
+  padding-left: 27px;
+  padding-top: 4px;
+  position: relative; }
+  .main-header__link-tel:nth-child(1) {
+    padding-bottom: 5px; }
+    .main-header__link-tel:nth-child(1)::before {
+      content: url(../img/phone-call.svg);
+      position: absolute;
+      left: -2px; }
+
+.main-header__link-mail {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  padding-top: 22px;
+  position: relative;
+  padding-left: 20px; }
+  .main-header__link-mail::before {
+    content: url(../img/mail.svg);
+    position: absolute;
+    left: 3px; }
+
+.main-header__link-address {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  max-width: 300px;
+  text-align: start;
+  padding-top: 25px;
+  padding-left: 40px;
+  position: relative; }
+  .main-header__link-address::before {
+    content: url(../img/point-map.svg);
+    position: absolute;
+    left: 5px; }
+
+.main-header__list {
+  display: flex;
+  justify-content: space-between; }
+  .main-header__list .main-header__item a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #ffffff; }
+  .main-header__list li:not(:last-child) {
+    padding-right: 48px; }
+
+.main-header__input {
+  align-self: flex-end; }
