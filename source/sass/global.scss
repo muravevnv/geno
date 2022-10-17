@@ -64,7 +64,7 @@ input {
 .container {
   margin: 0 auto;
   padding: 0 225px;
-  max-width: 19200px;
+  max-width: 1920px;
 }
 
 .page-body {
@@ -76,4 +76,5 @@ input {
   grid-template-rows: min-content 1fr min-content;
   @include fonts_main;
   color: $color_main_text;
+  background-color: $color_main_bg;
 }
