@@ -330,14 +330,22 @@ input:focus {
   line-height: 110%;
   padding-bottom: 50px; }
 
+.services__slide-wrapper-title {
+  width: 345px;
+  height: 102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
 .services__slide-title {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 120%;
-  text-align: center;
-  padding: 32px 30px 32px 31px;
-  background-color: #f4e7d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #913636; }
 
 .services__slide {
@@ -375,7 +383,7 @@ input:focus {
   row-gap: 30px;
   align-items: center; }
 
-.services-price .container {
+.services-price__wrapper-bg {
   background-color: #fff9f2; }
 
 .services-price__list {
@@ -419,3 +427,208 @@ input:focus {
   .main-btn.services-price-btn:nth-child(2)::before {
     content: url(../img/money-icon.svg);
     padding-right: 10px; }
+
+.terms-prices__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 110%;
+  padding-top: 85px;
+  padding-bottom: 50px;
+  max-width: 780px; }
+
+.terms-prices__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  max-width: 1345px;
+  padding-bottom: 50px; }
+  .terms-prices__subtitle a {
+    text-decoration: underline;
+    color: #913636; }
+
+.terms-prices__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 85px; }
+  .terms-prices__list .terms-prices__item {
+    background-color: #fff9f2;
+    width: 345px;
+    height: 208px;
+    box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.07);
+    padding: 32px 32px 24px 32px; }
+    .terms-prices__list .terms-prices__item .terms-prices__item-title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 140%;
+      color: #913636;
+      max-width: 289px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      padding-bottom: 15px; }
+    .terms-prices__list .terms-prices__item .terms-prices__item-terms {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      padding-bottom: 25px; }
+      .terms-prices__list .terms-prices__item .terms-prices__item-terms span {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%; }
+  .terms-prices__list .terms-prices__item-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #913636; }
+
+.feedback .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 85px; }
+
+.feedback__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 110%;
+  padding-bottom: 25px; }
+
+.feedback__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  max-width: 631px;
+  padding-bottom: 50px; }
+
+.feedback-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+  .feedback-form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .feedback-form fieldset .feedback__name,
+    .feedback-form fieldset .feedback__tel {
+      width: 510px;
+      height: 56px;
+      border: 1px solid #f4e7d9;
+      border-radius: 6px;
+      padding-left: 20px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 100%;
+      color: #424242;
+      margin-bottom: 25px;
+      font-family: "OpenSans", "Tahoma", sans-serif; }
+      .feedback-form fieldset .feedback__name::placeholder,
+      .feedback-form fieldset .feedback__tel::placeholder {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 100%;
+        color: #424242; }
+
+.feedback__message {
+  resize: none;
+  max-height: 162px;
+  margin-bottom: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  font-family: "OpenSans", "Tahoma", sans-serif; }
+  .feedback__message::placeholder {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%; }
+
+.main-btn.feedback__btn {
+  background-color: #913636; }
+
+.family-history .container {
+  padding-bottom: 85px; }
+
+.family-history__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 110%;
+  max-width: 1135px;
+  padding-bottom: 50px; }
+
+.family-history__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  max-width: 1345px; }
+  .family-history__subtitle:nth-child(2) {
+    padding-bottom: 15px; }
+
+.research-stages .container {
+  padding-bottom: 85px; }
+
+.research-stages__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 110%;
+  padding-bottom: 50px;
+  position: relative; }
+
+.research-stages__list {
+  display: flex;
+  justify-content: space-between;
+  counter-reset: number 00; }
+
+.research-stages__item {
+  max-width: 300px;
+  position: relative; }
+  .research-stages__item:not(:last-child)::after {
+    content: url(../img/Arrow1.svg);
+    position: absolute;
+    top: 130px;
+    left: 310px; }
+  .research-stages__item img {
+    padding-bottom: 65px;
+    position: relative; }
+  .research-stages__item .research-stages__item-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #913636;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    counter-increment: number; }
+    .research-stages__item .research-stages__item-title::before {
+      content: counter(number);
+      position: absolute;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 100%;
+      color: #913636;
+      top: 270px; }
+  .research-stages__item .research-stages__item-subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%; }
