@@ -47,7 +47,8 @@ label {
   cursor: pointer;
 }
 
-input {
+input,
+textarea {
   &:focus {
     outline: none;
   }
@@ -77,4 +78,19 @@ input {
   @include fonts_main;
   color: $color_main_text;
   background-color: $color_main_bg;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+  background-color: inherit;
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: $color_red;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: inherit;
 }

@@ -11,3 +11,15 @@ const services_slider = new Swiper(".services__slider", {
     },
   },
 });
+
+const portfolio_slider = new Swiper(".portfolio__slider", {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  loop: true,
+  loopFillGroupWithBlank: true,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
