@@ -30,11 +30,7 @@
     <title>Международный институт генеалогических исследований</title>
   </head>
   <body class="page-body">
-    <h1 class="visually-hidden">
-      Международный институт генеалогических исследований
-    </h1>
-
-    <header class="main-header">
+    <!-- <header class="main-header">
       <div class="container">
         <div class="main-header__wrapper-logo">
           <a href="#" class="main-header__logo"
@@ -89,43 +85,49 @@
           placeholder="Поиск..."
         />
       </div>
-    </header>
+    </header> -->
     <main>
-      <section class="hero-block">
+      <section class="hero">
         <div class="container">
-          <div class="hero-block__wrapper">
-            <h2 class="hero-block__title">
+          <div class="hero-wrapper">
+            <h2 class="hero__title">
               Составим генеалогическое древо семьи и поможем найти предков в
               архивах
             </h2>
-            <form class="hero-block__form" method="GET" action="">
-              <fieldset>
-                <label for="name"></label>
-                <input
-                  required
-                  id="name"
-                  type="text"
-                  placeholder="Имя"
-                  class="hero-block__name"
-                />
-                <label for="tel"></label>
-                <input
-                  required
-                  id="tel"
-                  type="tel"
-                  placeholder="Телефон"
-                  class="hero-block__tel"
-                />
-              </fieldset>
-              <button class="main-btn hero-block__form--btn">
-                Получить консультацию
-              </button>
+            <form class="hero__form" method="GET">
+              <div class="form-row">
+                <div class="form-item">
+                  <label class="form__label" for="name"></label>
+                  <input
+                    class="form__input"
+                    required
+                    id="name"
+                    type="text"
+                    placeholder="Имя"
+                  />
+                </div>
+                <div class="form-item">
+                  <label class="form__label" for="tel"></label>
+                  <input
+                    class="form__input"
+                    required
+                    id="tel"
+                    type="tel"
+                    placeholder="Телефон"
+                  />
+                </div>
+                <button class="btn btn--primary form__submit">
+                  Получить консультацию
+                </button>
+              </div>
             </form>
           </div>
-          <img src="img/tree.png" alt="Дерево" class="hero-block__img" />
+          <div class="hero__img">
+            <img src="img/tree.png" alt="Дерево" />
+          </div>
         </div>
       </section>
-      <section class="services">
+      <!-- <section class="services">
         <div class="container">
           <h2 class="services__title">Наши услуги</h2>
           <div class="swiper services__slider">
@@ -802,7 +804,7 @@
           </ul>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/script.min.js"></script>
   </body>

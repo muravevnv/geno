@@ -1,0 +1,27 @@
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.form-item {
+    width: 100%;
+}
+
+.form__label {
+    display: none;
+}
+
+.form__input {
+    width: 100%;
+    font-size: 16px;
+    height: 52px;
+    line-height: 52px;
+    padding: 0 18px;
+    background: $color_white;
+    border: 1px solid #F4E7D9;
+    border-radius: 4px;
+    &::placeholder {
+        font-size: 16px;
+    }
+}

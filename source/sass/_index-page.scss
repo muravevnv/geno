@@ -64,23 +64,7 @@
   padding-right: 25px;
 }
 
-.main-btn {
-  border-radius: 4px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 100%;
-  display: block;
-  width: 230px;
-  height: 52px;
-  border: none;
-  color: $color_white;
 
-  &.main-header--btn {
-    margin-top: 30px;
-    background-color: $color_red;
-  }
-}
 
 .main-header__link-tel {
   font-style: normal;
@@ -209,65 +193,10 @@
 
 //hero-block
 
-.hero-block {
-  background-color: $color_hero_bg;
-  & .container {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 65px;
-  }
-}
 
-.hero-block__title {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  line-height: 110%;
-  color: $color_red;
-  max-width: 817px;
-  padding-top: 160px;
-  padding-bottom: 45px;
-}
-
-.hero-block__img {
-  padding-top: 60px;
-  padding-right: 35px;
-}
-
-.hero-block__name,
-.hero-block__tel {
-  background-color: $color_white;
-  border: 1px solid $color_beige;
-  border-radius: 4px;
-  display: block;
-  width: 245px;
-  height: 52px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
-  color: $color_main_text;
-  padding-left: 18px;
-  margin-right: 15px;
-
-  &::placeholder {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 100%;
-    color: $color_main_text;
-  }
-}
-
-.hero-block__form {
-  & fieldset {
-    display: flex;
-  }
-  display: flex;
-}
 
 .main-btn {
-  &.hero-block__form--btn {
+  &.hero__form--btn {
     background-color: $color_brown;
   }
 }
