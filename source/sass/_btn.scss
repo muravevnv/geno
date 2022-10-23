@@ -1,0 +1,21 @@
+.btn {
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    display: inline-block;
+    padding: 0 27px;
+    width: auto;
+    height: 52px;
+    border: none;
+    color: $color_white;
+    white-space: nowrap;
+    &--primary {
+        background-color: $color_primary;
+    }
+    // &.main-header--btn {
+    //   margin-top: 30px;
+    //   background-color: $color_red;
+    // }
+  }
